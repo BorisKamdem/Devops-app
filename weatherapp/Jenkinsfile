@@ -28,6 +28,7 @@ pipeline {
         stage('Hello3') {
             steps {
                 sh '''
+                ls
                 pwd
                 '''
             }

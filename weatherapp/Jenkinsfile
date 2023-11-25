@@ -1,6 +1,6 @@
 pipeline {
     agent {
-  label 'boris'
+  label 'dev'
 }
 
     stages {
@@ -28,7 +28,6 @@ pipeline {
         stage('Hello3') {
             steps {
                 sh '''
-                ls 
                 pwd
                 '''
             }
